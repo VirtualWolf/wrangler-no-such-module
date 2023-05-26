@@ -1,0 +1,7 @@
+name = "wrangler-no-such-module"
+main = "src/worker.ts"
+compatibility_date = "2023-05-26"
+
+rules = [
+  { type = "Text", globs = ["**/*.mustache"], fallthrough = true }
+]
